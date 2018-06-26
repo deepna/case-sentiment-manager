@@ -1,0 +1,17 @@
+{
+  "name": "Demo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "all": "0.0.0",
+    "ejs": "^2.6.1",
+    "express": "^3.4.4",
+    "java": "^0.9.1",
+    "jdbc": "^0.6.2",
+    "phoenix": "^1.3.0",
+    "serve-favicon": "^2.5.0"
+  }
+}

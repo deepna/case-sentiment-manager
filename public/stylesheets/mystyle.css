@@ -1,0 +1,59 @@
+.zui-table {
+    border: solid 1px #1E90FF;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font: normal 13px Arial, sans-serif;
+}
+.zui-table thead th {
+    background-color: #1E90FF;
+    border: solid 1px #1E90FF;
+    color: #336B6B;
+    padding: 10px;
+    text-align: left;
+    text-shadow: 1px 1px 1px #fff;
+}
+.zui-table tbody td {
+    border: solid 1px  #000000;;
+    color: #333;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #fff;
+}
+.zui-table-rounded {
+    border: none;
+}
+.zui-table-rounded thead th {
+    background-color: #000000;
+    border: none;
+    text-shadow: 1px 1px 1px #ccc;
+    color: #333;
+}
+.zui-table-rounded thead th:first-child {
+    border-radius: 10px 0 0 0;
+}
+.zui-table-rounded thead th:last-child {
+    border-radius: 0 10px 0 0;
+}
+.zui-table-rounded tbody td {
+    border: 1;
+    border-top: solid 1px  #000000;
+    background-color: #F8F8FF;
+}
+.zui-table-rounded tbody tr:last-child td:first-child {
+    border-radius: 0 0 0 10px;
+}
+.zui-table-rounded tbody tr:last-child td:last-child {
+    border-radius: 0 0 10px 0;
+}
+
+.div1 {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);    /* Older Gecko browser */
+  -ms-transform: translate(-50%, -50%);     /* IE9+ */
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+}
